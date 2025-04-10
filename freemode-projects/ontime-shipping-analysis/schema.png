@@ -1,30 +1,32 @@
-```mermaid
-erDiagram
-    customers ||--o{ orders : has
-    products ||--o{ orders : contains
-    shipments ||--o{ orders : ships
+Table customers {
+  customer_id int [pk]
+  name varchar
+  region varchar
+}
 
-    customers {
-        INT customer_id PK
-        VARCHAR name
-        VARCHAR region
-    }
+Table products {
+  product_id int [pk]
+  product_name varchar
+  unit_price decimal
+  category varchar
+}
 
-    products {
-        INT product_id PK
-        VARCHAR product_name
-        DECIMAL unit_price
-        VARCHAR category
-    }
+Table shipments {
+  shipment_id int [pk]
+  shipping_method varchar
+}
 
-    shipments {
-        INT shipment_id PK
-        VARCHAR shipping_method
-    }
-
-    orders {
-        INT order_id PK
-        INT customer_id FK
+Table orders {
+  order_id int [pk]
+  customer_id int [ref: > customers.customer_id]
+  product_id int [ref: > products.product_id]
+  shipment_id int [ref: > shipments.shipment_id]
+  order_date date
+  ship_date date
+  delivery_date date
+  expected_delivery_date date
+  on_time char
+}
         INT product_id FK
         INT shipment_id FK
         DATE order_date
@@ -33,3 +35,4 @@ erDiagram
         DATE expected_delivery_date
         CHAR on_time
     }
+
