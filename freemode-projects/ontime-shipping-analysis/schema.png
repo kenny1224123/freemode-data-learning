@@ -1,1 +1,35 @@
+```mermaid
+erDiagram
+    customers ||--o{ orders : has
+    products ||--o{ orders : contains
+    shipments ||--o{ orders : ships
 
+    customers {
+        INT customer_id PK
+        VARCHAR name
+        VARCHAR region
+    }
+
+    products {
+        INT product_id PK
+        VARCHAR product_name
+        DECIMAL unit_price
+        VARCHAR category
+    }
+
+    shipments {
+        INT shipment_id PK
+        VARCHAR shipping_method
+    }
+
+    orders {
+        INT order_id PK
+        INT customer_id FK
+        INT product_id FK
+        INT shipment_id FK
+        DATE order_date
+        DATE ship_date
+        DATE delivery_date
+        DATE expected_delivery_date
+        CHAR on_time
+    }
