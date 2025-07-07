@@ -104,24 +104,27 @@ Odds Ratios (Logistic Regression)
 4. 建立資料驅動的 轉換率優化基礎模型，能快速調整行銷活動與預算
 
 -- 關鍵洞見
-	•	Age：年齡越大，購買機率顯著提升
-	•	Time on website：停留時間較長者，轉換機率提高超過 2.5 倍
-	•	Number of previous purchases：回購率高，顯示強烈的顧客忠誠度
-	•	Loyalty program：會員的購買機率為非會員的 3 倍，證實會員計畫成效
-  • 建議針對年齡較高與網站停留時間長的顧客，推出專屬優惠券與會員積分活動，提升短期轉換率，同時穩定長期忠誠度
-  • 提供清楚的會員 ROI 證據，幫助決策層決定是否擴大會員活動
-  • 建議針對高回購群推跨售活動
-  • 利用特徵重要性決定 UI 頁面資訊強化哪些欄位
+
+• Age：年齡越大，購買機率顯著提升
+• Time on website：停留時間較長者，轉換機率提高超過 2.5 倍
+• Number of previous purchases：回購率高，顯示強烈的顧客忠誠度
+• Loyalty program：會員的購買機率為非會員的 3 倍，證實會員計畫成效
+• 建議針對年齡較高與網站停留時間長的顧客，推出專屬優惠券與會員積分活動，提升短期轉換率，同時穩定長期忠誠度
+• 提供清楚的會員 ROI 證據，幫助決策層決定是否擴大會員活動
+• 建議針對高回購群推跨售活動
+• 利用特徵重要性決定 UI 頁面資訊強化哪些欄位
+
 ⸻
 
 -- 未來優化方向
-	•	加入更多特徵如裝置類型、地區、點擊熱圖分析
-	•	與 A/B 測試結合，進一步驗證不同行銷活動對購買率的影響
-	•	導入預測性分群，優化行銷預算配置
-  • 加入行為序列 (session clickstream)
-  • 嘗試 XGBoost 與調參提升 recall
-  • 整合網站熱點分析，優化 UX layout
-  • 尚未進行 Cross Validation（可列為後續優化項目）
+
+• 加入更多特徵如裝置類型、地區、點擊熱圖分析
+• 與 A/B 測試結合，進一步驗證不同行銷活動對購買率的影響
+• 導入預測性分群，優化行銷預算配置
+• 加入行為序列 (session clickstream)
+• 嘗試 XGBoost 與調參提升 recall
+• 整合網站熱點分析，優化 UX layout
+• 尚未進行 Cross Validation（可列為後續優化項目）
 
 -- 資料來源 
 https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset
