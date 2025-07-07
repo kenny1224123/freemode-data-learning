@@ -72,11 +72,15 @@
 
 Feature Importance (Random Forest)
 顯示哪些特徵對預測顧客購買最重要。
-![](outputs/Feature Importance.png)
+![](outputs/feature_importance.png)
+
+Feature Coefficients (Logistic Regression)
+用邏輯回歸看係數，顯示每個變數影響購買機率的方向與強度。
+![](outputs/feature_coefficients_logistic.png)
 
 Odds Ratios (Logistic Regression)
-用邏輯回歸看每個變數對購買機率的提升或抑制。
-![](outputs/Odds Ratios in Logistic Regression.png)
+用邏輯回歸的 Odds Ratio 觀察每個變數對購買機率的提升或抑制。
+![](outputs/odds_ratios_logistic.png)
 
 模型比較
 比較不同模型的準確率、召回率與精確率。
