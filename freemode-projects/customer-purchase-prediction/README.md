@@ -123,7 +123,10 @@ Odds Ratios (Logistic Regression)
   • 整合網站熱點分析，優化 UX layout
   • 尚未進行 Cross Validation（可列為後續優化項目）
 
--- 資料來源 https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset
+-- 資料來源 
+https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset
+
+
 -- 所有生成的圖表皆已保存在 `outputs/` 資料夾，並在此 README 中直接嵌入以利快速檢視。
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
