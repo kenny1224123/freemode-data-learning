@@ -28,14 +28,15 @@ It explores key factors influencing purchase behavior and provides actionable in
 - **Version control with Git & GitHub** to structure and track the project.
 - **Markdown & README writing** to communicate findings to both technical & non-technical teams.
 
+##  Outputs
+- Feature importance plots & odds ratios to visualize top drivers of purchase behavior.
+- A summary CSV of grouped data for quick reference.
+- Jupyter Notebook capturing the entire exploratory & modeling process.
+
+
 ## Conclusion
 By targeting older, loyal customers who spend more time browsing — and doubling down on loyalty programs —  
 the company can **optimize marketing ROI and boost sales conversion**.  
 This project shows how data analysis directly supports smarter business strategy. 
 
 ---
-
-##  Outputs
-- Feature importance plots & odds ratios to visualize top drivers of purchase behavior.
-- A summary CSV of grouped data for quick reference.
-- Jupyter Notebook capturing the entire exploratory & modeling process.
