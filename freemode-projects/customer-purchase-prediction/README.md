@@ -70,7 +70,6 @@ customer-purchase-prediction/
 │   └── model_compare_metrics.csv
 ├── README.md
 └── .gitignore
-
 ```
 -- 模型輸出與圖片洞察
 
