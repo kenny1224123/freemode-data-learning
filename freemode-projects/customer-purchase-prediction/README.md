@@ -50,21 +50,26 @@
  
  --  專案架構
 
- customer-purchase-prediction/
+customer-purchase-prediction/
+│
 ├── data/
-│   ├── raw/               # 原始資料
+│   ├── raw/
 │   │   └── customer_purchase_data.csv
-│   └── processed/         # 清理後的彙總資料
+│   └── processed/
 │       └── grouped_summary.csv
-├── notebooks/             # Jupyter Notebook 分析過程
+│
+├── notebooks/
 │   └── Customer Purchase Behavior Dataset.ipynb
-├── outputs/               # 模型輸出與圖表
-│   ├── Feature Coefficients in Logistic Regression.png
-│   ├── Feature Importance.png
-│   ├── Odds Ratios in Logistic Regression.png
+│
+├── outputs/
+│   ├── feature_coefficients_logistic.png
+│   ├── feature_importance.png
+│   ├── odds_ratios_logistic.png
 │   ├── model_compare_metrics.csv
 │   └── model_comparison.png
-└── README.md
+│
+├── README.md
+└── .gitignore
 
 -- 模型輸出與圖片洞察
 
