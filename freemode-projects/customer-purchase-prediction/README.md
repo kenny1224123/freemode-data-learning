@@ -51,26 +51,21 @@
  --  專案架構
 
 customer-purchase-prediction/
-│
 ├── data/
 │   ├── raw/
 │   │   └── customer_purchase_data.csv
 │   └── processed/
 │       └── grouped_summary.csv
-│
 ├── notebooks/
 │   └── Customer Purchase Behavior Dataset.ipynb
-│
 ├── outputs/
 │   ├── feature_coefficients_logistic.png
 │   ├── feature_importance.png
 │   ├── odds_ratios_logistic.png
-│   ├── model_compare_metrics.csv
-│   └── model_comparison.png
-│
+│   ├── model_comparison.png
+│   └── model_compare_metrics.csv
 ├── README.md
 └── .gitignore
-
 -- 模型輸出與圖片洞察
 
 -- 圖片洞察
